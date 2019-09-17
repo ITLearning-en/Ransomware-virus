@@ -1,0 +1,56 @@
+EvilClub Runsomeware
+
+------------------------------------
+
+يحتوي على ملف Evil_club_finall.py ( Backdoor )
+
+وهو الملف الذي ينفذ على جهاز الضحية, ووظيفته القيام بالاتصال بسيرفر الهكر , tcp reverse shell , 
+
+ليقوم بفتح اتصال عكسي مع جهاز الضحية , مما يتيح للهكر القيام بالعديد من الامور 
+
+1 - open remote cmd and execute command 
+2 - disable task manager
+3 - open page in webbrowser
+4 - send message to the victome 
+5 - send / recv files from the victome pc
+6 - view all files in the victome pc
+7 - task screenshoot from the victome pc
+8 - view user info
+9 - run the programme in the startup
+10 - shutdown / restart computer
+
+ولكن اهم الاوامر هي 
+
+11 - Encrypt
+
+حيث يقوم المخترق بارسال امر clinet لتشغيل برنامج runsomeware
+
+------------------------------------------------------
+
+الملفات الاخرى
+
+1 - server.py
+
+برنامج يعمل على جهاز الهكر وضيفته استقبال الاتصال العكسي من جهاز الضحية , والتحكم به عن بعد
+
+2 - EvilClub_dec.py
+
+برنامج يحتوي واجهة رسومية تتيح للمستخدم ادخال مفتاح فك التشفير, وارجاع الملفات المشفرة لاصلها
+
+3 - EvilClub_enc
+
+كلاس يحتوي على دوال وظيفتها تشفير الملفات
+
+4 - discover.py
+
+ملف يحتوي على العديد من الدوال تتيح للكلاس الاساسي Evil_club_enc.py and Evil_club_dec.py البحث عن الملفات حسب امتداد معين
+
+5 - modify.py
+
+ملف يحتوي على الدوال الي تتيح للكلاسات الاساسية تشفيرر وفك تشفير الملفات
+
+-------------------------
+
+
+note: the powerpoint file has video that discripe the runsomeware virus, thd old one but we don't have time for making new one 
+with the new changes!
